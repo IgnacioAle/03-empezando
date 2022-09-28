@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  Identificador: #
+    Clase: .*/
+
+body {
+    padding: 40px;
+}
+
+#cajas{
+    max-width: 1035px;
+    border: 1px solid black;
+}
+
+.caja {
+    display: block;
+    width: 250x;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    margin-right: 10px;
+    padding: 20px;
+    padding-bottom: 34px;
+    float: left;
+}
+
+.caja p {
+    font-weight: bold;
+    /*Marca la letra en negrita*/
+    text-align: center;
+    /*Centrar el texto*/
+    font-size: 20px;
+    /*Tamaño de texto*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Formato de texto*/
+    line-height: 235px;
+    /*De arroba o abajo elejimos la posicion del texto*/
+}
+
+.clarfix {
+    float: none;
+    /*Para que sepa que no tiene que flotar*/
+    clear: left;
+    /*Limpiame todos los flotados que hay arriba*/
+
+}

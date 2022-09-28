@@ -1,0 +1,101 @@
+/*
+########## SELECTORES ##########
+*/
+
+/*SELECTOR UNIVERSAL*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*SELECTOR ETIQUETA*/
+h1{
+    background: red;    /* Color de fondo*/
+    color: white;       /* Color de texto*/
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+footer a{
+    color: red;
+}
+
+
+/*SELECTOR ID*/
+#description,
+#tittle{
+    border: 5px solid black;
+    padding: 15px;
+}
+
+#tittle{
+    background: blue;
+    border: 2px dashed white;
+}
+
+/*SELECTOR CLASE*/
+.parrafo{
+    font-style: italic; /*Texto en cursiva*/
+    text-decoration: underline; /*Subrayar texto*/
+    font-weight: bold; /*Texto en negrita*/
+    padding: 10px;
+}
+
+.parrafo1{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.parrafo3{
+    background-color: orange;
+    color: black;
+}
+
+/*SELECTOR ATRIBUTO*/
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px; /*Le da un borde invisible para la zona superior*/
+    margin-bottom: 15px; /*Le da un borde invisible en la zona inferior*/
+    padding: 20px; /*Margen de separacion*/
+}
+
+#usuario form * {
+    display: block;
+}
+
+input[type="text"] {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer; /*Deja mouse con forma de enlace a seguir*/
+}
+
+
+/*######### SELECTORES HIJO ##########*/
+#menu > a > li{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+
+/*######### PRIORIDAD #########*/
+#saludo h1{
+    background: brown;
+}
+
+h1{
+    background: purple !important; /*con !important le damos a entender que esta regla debe considerar*/
+}

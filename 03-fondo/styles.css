@@ -1,0 +1,33 @@
+body{
+    background-color: #ccc;
+    /*
+    background-image: url(img/abstract-pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: left bottom;
+    */
+    color: black;
+    text-align: justify;
+    text-indent: 15px;
+    word-spacing: 10px; /*Espacio de salto de linea*/
+    letter-spacing: 5px; /*Espacio de distancia de las letras*/
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+
+    text-transform: uppercase; /* Transforma todo el texto en mayuscula*/
+    vertical-align: top;
+}
+
+h2{
+    color: red;
+    background: white;
+    border: 1px solid red;
+}
